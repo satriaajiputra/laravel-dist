@@ -1,7 +1,15 @@
 {
     "name": "satmaxt/laravel-dist",
     "description": "A command package to make distribution of app for shared hosting",
-    "keywords": "laravel production, laravel dist, distribution, production, laravel-dist",
+    "keywords": [
+        "laravel",
+        "production",
+        "laravel",
+        "dist",
+        "distribution",
+        "production",
+        "laravel-dist"
+    ],
     "type": "library",
     "license": "MIT",
     "version": "1.0.0-dev",
