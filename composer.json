@@ -1,39 +1,32 @@
 {
-    "name": "satmaxt/laravel-dist",
-    "description": "A command package to make distribution of app for shared hosting",
-    "keywords": [
-        "laravel",
-        "production",
-        "laravel",
-        "dist",
-        "distribution",
-        "production",
-        "laravel-dist"
-    ],
-    "type": "library",
-    "license": "MIT",
-    "version": "1.0.0-dev",
-    "authors": [
-        {
-            "name": "Satria Aji Putra",
-            "email": "satriamaxt@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "Satmaxt\\LaravelDist\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "dont-discover": [
-                "satmaxt/laravel-dist"
-            ],
-            "providers": [
-                "Satmaxt\\LaravelDist\\ServiceProvider"
-            ]
-        }
+  "name": "satmaxt/laravel-dist",
+  "description": "A command package to make distribution of app for shared hosting",
+  "keywords": [
+    "laravel",
+    "production",
+    "laravel",
+    "dist",
+    "distribution",
+    "production",
+    "laravel-dist"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Satria Aji Putra",
+      "email": "satriamaxt@gmail.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.2",
+    "ext-zip": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Satmaxt\\LaravelDist\\": "src/"
+    }
+  }
 }
